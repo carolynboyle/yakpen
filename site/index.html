@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Yak Pen — Wrangle Your Chaos</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">THE YAK PEN</a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#story" class="nav-link">THE STORY</a></li>
+                <li><a href="#tool" class="nav-link">THE TOOL</a></li>
+                <li><a href="#community" class="nav-link">COMMUNITY</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <section id="home" class="hero">
+        <div class="floating-objects">
+            <div class="floating-circle"></div>
+            <div class="floating-circle"></div>
+            <div class="floating-square"></div>
+            <div class="floating-line"></div>
+        </div>
+        
+        <div class="hero-decoration"></div>
+        <div class="hero-content">
+            <img src="yak.png" alt="The Yak Pen mascot - a grumpy yak" class="hero-yak">
+            <h1>Why the Yak Had to Be Shaved</h1>
+            <p class="subtitle">So the Code Could Be Shipped</p>
+            <a href="#story" class="cta-button">THE STORY</a>
+        </div>
+    </section>
+
+    <!-- Section 2: The Story -->
+    <section id="story" class="story">
+        <div class="container">
+            <div class="story-intro fade-in">
+                <div class="quote-block">
+                    <span class="quote-mark">"</span>
+                    <h3>Before anyone could review the code, someone had to go shave a yak.</h3>
+                    <div class="quote-author">
+                        <span class="author-line"></span>
+                        <p>Every developer, ever</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="black-line"></div>
+
+            <!-- The Chain -->
+            <div class="chain-section fade-in">
+                <div class="chain-header">
+                    <h2>The Chain</h2>
+                    <div class="header-decoration"></div>
+                </div>
+                <div class="chain-content">
+                    <div class="chain-narrative">
+                        <p class="chain-step">A developer wanted to ship his code.</p>
+                        <p class="chain-step">But to ship the code, he needed a code review.</p>
+                        <p class="chain-step">To get the code review, he needed George to log in.</p>
+                        <p class="chain-step">To log in, George needed his laptop unlocked.</p>
+                        <p class="chain-step">To unlock the laptop, IT needed to reset his password.</p>
+                        <p class="chain-step">To reset the password, they needed Sarah in Support.</p>
+                        <p class="chain-step">But Sarah was stuck at home, waiting on her dad John.</p>
+                        <p class="chain-step final">And John couldn't leave until he finished buying a yak-hair carpet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="black-line"></div>
+
+            <!-- Definition -->
+            <div class="definition-section fade-in">
+                <div class="definition-grid">
+                    <div class="definition-term">
+                        <h2>yak·shav·ing</h2>
+                        <span class="phonetic">/ˈyak ˌSHāviNG/</span>
+                    </div>
+                    <div class="definition-meaning">
+                        <p class="lead-text">The chain of unexpected tasks you must handle before you can do the <em>actual</em> task you started with.</p>
+                        <p>In technical work—coding, sysadmin, devops, homelabs—you start with a simple goal, follow the thread, and suddenly you're fixing three systems you never meant to touch.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Philosophy -->
+            <div class="philosophy-section fade-in">
+                <div class="values-header">
+                    <div class="black-square"></div>
+                    <h2>The Truth</h2>
+                    <div class="black-square"></div>
+                </div>
+                <div class="truth-cards">
+                    <div class="truth-card">
+                        <p>Yak-shaving isn't the distraction.</p>
+                    </div>
+                    <div class="truth-card black">
+                        <p>It's the <strong>real shape</strong> of the work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: The Tool -->
+    <section id="tool" class="tool">
+        <div class="container">
+            <div class="tool-header fade-in">
+                <h2>The Yak Pen</h2>
+                <p class="tool-tagline">Map the messy, swirling, sideways path from<br>
+                "I just need to ship this code" to<br>
+                "…okay, fine, hand me the clippers."</p>
+            </div>
+            
+            <div class="asymmetric-grid fade-in">
+                <div class="service-large">
+                    <h3>No Existing Tool Does This</h3>
+                    <p>We have to-do lists, Kanban boards, Gantt charts, issue trackers, mind maps, PKM apps, flow-state trackers... but not a single tool models the real, recursive "task → subtask → unrelated prerequisite → unexpected side-quest → rabbit hole → revelation → actual task" chain that sysadmins and makers actually experience daily.</p>
+                    <span class="service-tag">Coming Soon</span>
+                </div>
+                <div class="service-small">
+                    <div class="service-number">01</div>
+                    <h4>First of Its Kind</h4>
+                </div>
+            </div>
+            
+            <div class="asymmetric-grid reverse fade-in">
+                <div class="service-small">
+                    <div class="service-number">02</div>
+                    <h4>Never Lose the Thread</h4>
+                </div>
+                <div class="service-large">
+                    <h3>Breadcrumbs Back to Origin</h3>
+                    <p>The #1 productivity killer for technical people isn't laziness. It's: "Why am I doing this? What was the original task?" The Yak Pen keeps a breadcrumb chain back to origin, shows the dependency path, logs sidetracked tasks, and lets you collapse a whole chain into a "yak herd."</p>
+                    <span class="service-tag">In Development</span>
+                </div>
+            </div>
+            
+            <div class="asymmetric-grid fade-in">
+                <div class="service-large">
+                    <h3>Built for Your Brain</h3>
+                    <p>A visual, playful tool wrapped in a metaphor that technical minds instantly understand. Graph views, dependency linking, collapsible groups, status tags (Blocked, Doing, Done, Lost...). Export to JSON, Markdown, PNG. Integration-ready for your existing stack.</p>
+                    <span class="service-tag">Join the Waitlist</span>
+                </div>
+                <div class="service-small">
+                    <div class="service-number">03</div>
+                    <h4>Your Workflow</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Community -->
+    <section id="community" class="community">
+        <div class="container">
+            <div class="community-header fade-in">
+                <h2>From the Herd</h2>
+                <p class="community-tagline">Tales of yak-shaving from r/theyakpen</p>
+            </div>
+
+            <div class="posts-grid fade-in" id="postsGrid">
+                <!-- Posts will be populated by JavaScript -->
+            </div>
+
+            <div class="community-cta fade-in">
+                <a href="https://reddit.com/r/theyakpen" target="_blank" rel="noopener" class="reddit-button">
+                    <svg class="reddit-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="currentColor" d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/>
+                    </svg>
+                    Join r/theyakpen
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid fade-in">
+                <div class="contact-info">
+                    <h2>Connect</h2>
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p>theyakpen@whycantyoujust.tech</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Community</h4>
+                        <p><a href="https://reddit.com/r/theyakpen" target="_blank" rel="noopener">r/theyakpen</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Status</h4>
+                        <p>Building in public</p>
+                    </div>
+                </div>
+                
+                <div class="contact-divider"></div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder=" " required>
+                            <label>Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder=" " required>
+                            <label>Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder=" " required></textarea>
+                            <label>Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 The Yak Pen — Wrangle Your Chaos</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

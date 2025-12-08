@@ -1,0 +1,31 @@
+# --- Project directories ---
+archive/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- Temporary files ---
+*.tmp
+*.bak
+*.swp
+*.log
+
+# --- Editor / IDE files ---
+.vscode/
+.idea/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+
+# --- Node / JS ---
+node_modules/
+dist/
+.cache/
+.tmp/
+
+# --- Environment variables ---
+.env
